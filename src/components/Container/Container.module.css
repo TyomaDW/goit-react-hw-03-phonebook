@@ -1,0 +1,12 @@
+.container {
+  max-width: 1170px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+
+  background-color: rgba(212, 210, 210, 0.2);
+}

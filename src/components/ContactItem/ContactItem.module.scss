@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.button {
+  padding: 2px;
+
+  border-radius: 5px;
+
+  &:hover,
+  :focus {
+    background-color: rgb(253, 107, 107);
+  }
+}
