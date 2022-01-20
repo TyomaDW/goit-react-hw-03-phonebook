@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import ContactItem from '../ContactItem/ContactItem';
+import ContactItem from '../ContactItem';
 
 import styles from './ContactsList.module.scss';
 

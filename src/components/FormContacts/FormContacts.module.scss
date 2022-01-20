@@ -12,12 +12,15 @@
 }
 
 .button {
-  padding: 2px;
+  padding: 5px;
+
+  border: 1px solid #212121;
   border-radius: 5px;
   font-weight: 500;
 
   &:hover,
   :focus {
+    border: 1px solid rgb(7, 241, 163);
     background-color: rgb(7, 241, 163);
     color: crimson;
   }

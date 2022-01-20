@@ -1,6 +1,9 @@
 .item {
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
+
+  margin-top: 7px;
 }
 
 .item:not(:last-child) {
@@ -8,12 +11,16 @@
 }
 
 .button {
-  padding: 2px;
+  padding: 5px;
 
+  border: 1px solid #212121;
   border-radius: 5px;
 
   &:hover,
   :focus {
-    background-color: rgb(253, 107, 107);
+    color: crimson;
+    font-weight: 500;
+    background-color: rgb(252, 152, 152);
+    border: 1px solid rgb(252, 152, 152);
   }
 }
